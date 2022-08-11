@@ -1,6 +1,13 @@
 @charset 'UTF-8';
 
-div.espaço {
-    width: 600px;
-    margin: auto;
+#espaço{
+    position: relative;
+}
+#espaço>img{
+    width: 1336px;
+    height: 655px;
+}
+#astronauta{
+    position: absolute;
+    transform: translate(75%, -120%);
 }
