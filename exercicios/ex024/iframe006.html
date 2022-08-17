@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando conteúdos</title>
+    <style>
+        div.video{
+            margin:0px -20px 30px -20px;
+            padding: 20px;
+            position: relative;
+            padding-bottom: 57%;
+        }
+        div.video > iframe {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 90%;
+            height: 90%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conteúdos dentro dos iframes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint culpa eum voluptatum dolores ea fugiat unde ad aut nam. Vitae perferendis quia veritatis soluta commodi quidem, quae cumque? Nulla, voluptatem.</p>
+    <h2>Vídeos</h2>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ELHu7-dzngA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <h2>Mapas do Google</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d956489.5326887302!2d-41.77529838374179!3d-20.53542521241278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb97c7ec4a2f7c3%3A0x4ab593d3dbee486a!2sCastelo%20-%20ES!5e0!3m2!1spt-BR!2sbr!4v1660767465289!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    <h2>Mapas do waze</h2>
+    <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-20.603746&lon=-41.203524&ct=livemap" width="600" height="450" allowfullscreen></iframe>
+</body>
+</html>
